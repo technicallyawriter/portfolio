@@ -5,7 +5,7 @@ site:
 content:
   sources:
   - url: https://github.com/technicallyawriter/portfolio-docs.git 
-    branches: [main, dev] 
+    branches: [dev, main] 
 ui:
   bundle:
     url: https://github.com/technicallyawriter/portfolio-ui/raw/main/build/ui-bundle.zip
