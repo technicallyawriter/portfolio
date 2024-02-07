@@ -22,7 +22,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          repository: https://github.com/technicallyawriter/portfolio-docs
+          repository: https://github.com/technicallyawriter/portfolio-docs.git
           ref: main
       - name: Configure Pages
         uses: actions/configure-pages@v4
