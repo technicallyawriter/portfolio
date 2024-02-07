@@ -19,11 +19,13 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout repository
+      - name: Checkout docs repository
         uses: actions/checkout@v4
         with:
           repository: technicallyawriter/portfolio-docs
           ref: main
+      - name: Checkout playbook repository
+        uses: actions/checkout@v4
       - name: Configure Pages
         uses: actions/configure-pages@v4
       - name: Install Node.js
