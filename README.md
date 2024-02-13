@@ -2,7 +2,7 @@
 
 [![Deployment](https://github.com/technicallyawriter/portfolio/actions/workflows/publish.yml/badge.svg)](https://github.com/technicallyawriter/portfolio/actions/workflows/publish.yml)
 
-This repo contains the Antora playbook for https://technicallyawriter.github.io/portfolio. Once link:https://github.com/technicallyawriter/portfolio-docs[portfolio-docs] pushes to [branch]`main`, a deployment is trigger via GitHub Actions from this repository.
+This repo contains the Antora playbook for https://technicallyawriter.github.io/portfolio. Once (https://github.com/technicallyawriter/portfolio-docs)[portfolio-docs] pushes to its [branch]`main` branch, a deployment to GitHub Pages is triggered via GitHub Actions from this repository.
 
 ## Related repositories
 
