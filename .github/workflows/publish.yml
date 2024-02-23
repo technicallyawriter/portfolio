@@ -2,6 +2,7 @@ name: Deployment
 on:
   repository_dispatch:
     types: [run-playbook]
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
