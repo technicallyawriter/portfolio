@@ -1,6 +1,6 @@
 site:
   title: technicallyawriter
-  url: https://technicallyawriter.github.io/portfolio
+  url: https://technicallyawriter.org
   start_page: technicallyawriter::index.adoc
 content:
   sources:
